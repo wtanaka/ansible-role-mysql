@@ -1,0 +1,4 @@
+---
+# Fedora file needed for Ansible 1.5.4 and below
+package_names:
+- mariadb-server

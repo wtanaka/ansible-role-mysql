@@ -1,4 +1,4 @@
 ---
 package_names:
 - mysql-server
-service_name: mysql
+service_name: mysqld

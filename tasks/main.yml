@@ -10,3 +10,10 @@
   when: ansible_os_family == 'RedHat'
 
 - include: install_package_names.yml
+
+- name: start mysql
+  service: name={{service_name}} state=started
+  sudo: yes
+  when: >
+    not (is_integration_test is defined and is_integration_test and
+    ansible_os_family == "RedHat")

@@ -2,3 +2,4 @@
 package_names:
 - mysql-server
 - python-mysqldb
+service_name: mysql

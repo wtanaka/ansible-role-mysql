@@ -2,3 +2,4 @@
 # Support older Ansible versions which refer to CentOS as RedHat
 package_names:
 - mariadb-server
+service_name: mariadb

@@ -1,3 +1,4 @@
 ---
 package_names:
 - mariadb-server
+service_name: mariadb

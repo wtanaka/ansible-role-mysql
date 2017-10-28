@@ -13,6 +13,20 @@ Example Playbook
       roles:
          - wtanaka.mysql
 
+### `mysql_should_shortcircuit`
+
+Default: True
+
+When True, this role short-circuits itself if it detects that it is
+alrady installed.  Currently, this just looks for a `mysql` in the
+path, this might be improved in the future to look for a server
+binary.
+
+### All variables
+
+The full set of configuration options available are visible in
+[defaults/main.yml](defaults/main.yml)
+
 License
 -------
 
